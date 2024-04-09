@@ -6,6 +6,7 @@
 .container{
     width: 100%;
     padding: 20px;
+    margin: 0 auto;
    
 }
 
@@ -13,16 +14,25 @@
 /* COSTRUZIONE LAYOUT */
 
 header{
-    height: 50px;
     background-color: rgba(0,132,253,255);
 }
 
 /* MENU */
 .menu-desktop ul{
     list-style: none;
-    display: flex;
     gap: 15px;
     justify-content: CENTER;
+    display: none;
+}
+
+
+/* DEMO-APP */
+#demo-app .container .row > *{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    
+    
 }
 #demo-app .container .row {
     gap: 20px;
@@ -30,13 +40,120 @@ header{
     justify-content: center;
     
 }
-/* DEMO-APP */
-#demo-app .container .row :first-child {
-    flex-direction: column;
-    align-items: center;
+#demo-app .container .row h1{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-self: center;
+}
+#demo-app .container .row p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-self: center;
 }
 
 
+#demo-app .container .row :first-child {
+    justify-content: space-between;
+    
+ }
+ #demo-app .container .row img {
+     
+     align-self: center;
+     width: 100px;
+     
+ }
+  
+/* DEMO-APP */
+
+
+
+
+/* PLANNING PLANNING PLANNING PLANNING*/
+#planning {
+    background-color: rgba(151,146,228,255);
+}
+
+
+#planning .container .row > *{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+#planning .container .row{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+    
+}
+
+/* PLANNING PLANNING PLANNING PLANNING*/
+/*
+ 
+ */
+/* PARTNER */
+
+
+#partner .container .row{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+    
+}
+#partner .container .row > *{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+
+/* PARTNER */
+
+
+/* BENEFITS */
+
+#benefits .container .row > *{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+#benefits .container .row{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+/* ABOUT-US */
+#about .container .row > *{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+#about .container .row{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 /* UTILITY */
 .row{
     display: flex;
@@ -58,18 +175,29 @@ header{
     flex-wrap: wrap;
 }
 
+.bg-azure{
+    background-color: rgba(181,221,255,255)
+}
 
-
-
+.bg-pink{
+    background-color: rgba(151,146,228,255);
+}
+.bg-white{
+    background-color: white;
+}
+.bg-grey{
+   background-color: rgba(51,51,51,255); 
+}
 
 /* COL *//* COL *//* COL *//* COL *//* COL */
 /* COL *//* COL *//* COL *//* COL *//* COL */
 .col-70{
-width: 70%;
+width: 100%;
+
 
 
 }
 .col{
     width: 100%;
-    background-color: rgba(181,221,255,255);
+    
 }

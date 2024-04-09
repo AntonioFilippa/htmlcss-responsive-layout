@@ -1,19 +1,128 @@
-@media screen and (min-width :760px) 
+@media screen and (min-width :481px)
 {
+
+    /* DEMO APP */
+    #demo-app .container .row {
+        
+        flex-direction:row;
+        flex-wrap: wrap;
+        align-self: center;
+        justify-content: space-between;
+        
+        
+        
+        
+    }
+
+     .menu-desktop ul{
+        display: none;
+    }
+    #demo-app .container .row .col{
+        width: calc(100% / 3 - 20px);
+    }
+
+    #demo-app .container .row :first-child {
+        width: calc( 100% / 3 * 2 - 10px);
+    }
+    /* DEMO APP */
+    /* PLANNING */
+   
+    #planning .container .row {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+
+        
+        
+        
+        
+    }
+     
+    #partner .container .row {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        flex-direction: column;
+
+        
+        
+        
+        
+    }
+    /* BENEFITS */
+    #benefits .container .row > *{
+        flex-direction:row;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        
+    }
+    #benefits .container .row .col {
+        width: calc(100% / 2 - 20px);
+    }
+    
+    #benefits .container .row {
+        flex-direction:row;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        
+    }
+   
+/* ABOUT US */
+#about .container .row > *{
+    flex-direction:row;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+#about .container .row .col {
+    width: calc(100% / 2 - 20px);
+}
+
+#about .container .row {
+    flex-direction:row;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+}
+
+@media screen and (min-width :761px)
+{
+    .container{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    #planning .container .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-self: center;
+        
+        
+        
+        
+    }
+    #planning .container .row .col{
+        width: calc(100% - 20px);
+    }
+    
     .menu-mobile{
         display: none;
     }
-    #demo-app .container .row {
-        gap: 20px;
-        flex-direction:row;
-        
+    .menu-desktop ul {
+        display:flex;
     }
-}
-/* MEDIA MOBILE */
-@media  screen and (max-width : 760px)
- {
-    .menu-desktop{
-        display: none;
+    
+    #benefits .container .row .col {
+        width: calc(100% / 3 - 20px);
     }
- 
 }
