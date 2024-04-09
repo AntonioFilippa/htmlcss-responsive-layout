@@ -3,6 +3,11 @@
     .menu-mobile{
         display: none;
     }
+    #demo-app .container .row {
+        gap: 20px;
+        flex-direction:row;
+        
+    }
 }
 /* MEDIA MOBILE */
 @media  screen and (max-width : 760px)
@@ -10,4 +15,5 @@
     .menu-desktop{
         display: none;
     }
+ 
 }

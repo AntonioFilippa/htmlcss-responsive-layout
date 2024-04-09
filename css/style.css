@@ -6,6 +6,7 @@
 .container{
     width: 100%;
     padding: 20px;
+   
 }
 
 
@@ -16,20 +17,59 @@ header{
     background-color: rgba(0,132,253,255);
 }
 
-
+/* MENU */
 .menu-desktop ul{
     list-style: none;
     display: flex;
     gap: 15px;
+    justify-content: CENTER;
 }
+#demo-app .container .row {
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+/* DEMO-APP */
+#demo-app .container .row :first-child {
+    flex-direction: column;
+    align-items: center;
+}
+
 
 /* UTILITY */
 .row{
     display: flex;
+    
 }
 .space-b{
     justify-content: space-between;
 }
 .flex{
     display: flex;
+}
+.height-250{
+    height: 250px;
+}
+.height-150{
+    height: 150px;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+
+
+
+
+
+/* COL *//* COL *//* COL *//* COL *//* COL */
+/* COL *//* COL *//* COL *//* COL *//* COL */
+.col-70{
+width: 70%;
+
+
+}
+.col{
+    width: 100%;
+    background-color: rgba(181,221,255,255);
 }
