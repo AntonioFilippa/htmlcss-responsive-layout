@@ -49,24 +49,45 @@
         justify-content: center;
         
     }
+    /* DEMO APP */
     
    
     
-    /* DEMO APP */
     /* PLANNING */
    
     #planning .container .row {
         display: flex;
         justify-content: center;
         align-self: center;
+    }
+        
 
         
         
         
         
+    #planning .container .row .col.bg-white{
+       height: 100%;
+       margin-top: 100px;
+       
+       
+       
     }
-     
-    #partner .container .row {
+
+    /* formattazione testo */
+
+    #planning .container .row h2{
+        font-size: 100px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    
+    
+    
+        /* PARTNER */
+    
+    
+        #partner .container .row {
         display: flex;
         justify-content: center;
         align-self: center;
@@ -151,6 +172,14 @@
     
 }
 
+/* PLANNING */
+#planning .container .row .col.bg-white{
+    
+    margin-top: 500px;
+    
+    
+    
+ }
 
     
     

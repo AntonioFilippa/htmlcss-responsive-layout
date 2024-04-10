@@ -11,7 +11,9 @@
    
 }
 
-
+img{
+    width: 100%;
+}
 
 /* COSTRUZIONE LAYOUT */
 
@@ -109,9 +111,6 @@ header{
 
 
 /* PLANNING PLANNING PLANNING PLANNING*/
-#planning {
-    
-}
 
 
 #planning .container .row > *{
@@ -151,7 +150,9 @@ header{
 #planning .container .row .col.bg-white p{
     margin-top: 20px;
 }
-
+#planning .container .row .sttl{
+    color: white;
+}
 /* PLANNING PLANNING PLANNING PLANNING*/
 /*
  
@@ -176,8 +177,21 @@ header{
     
 }
 
-
-
+#partner img{
+    width: 100%;
+    height:auto;
+    border-radius: 50%;
+    padding: 50px;
+}
+#partner .container .row .col.bg-pink {
+    color: white;
+    padding: 20px;
+    line-height: 40px;
+}
+#partner .container .row .col.bg-pink h3
+{
+    text-align: center;
+}
 /* PARTNER */
 
 
