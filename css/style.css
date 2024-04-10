@@ -41,6 +41,11 @@ header{
     flex-direction: column;
     display: flex;
     justify-content: center;
+    text-align: start;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
     
     
 }
@@ -55,26 +60,49 @@ header{
     margin-top: 20px;
     display: flex;
     align-self: center;
+    color: rgba(0,132,253,255);
+    text-align: center;
 }
 #demo-app .container .row p{
     margin-bottom: 20px;
     margin-top: 20px;
     display: flex;
     align-self: center;
+    color: rgba(90,110,127,255);
+    
+}
+#demo-app .container .row .btn.bg-blu{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    justify-content: center;
+    width: fit-content;
+    align-self: center;
+    width: auto;
+   
+   
 }
 
-
-#demo-app .container .row :first-child {
-    justify-content: space-between;
-    
- }
  #demo-app .container .row img {
      
-     align-self: center;
-     width: 100px;
+     align-self:center;
+     width: 198px;
      
  }
-  
+ #demo-app .container .row h3:not(:first-of-type) {
+    display: block;
+    
+}
+
+#icona-blue{
+    text-align: center;
+    font-size: 80px;
+    
+}
+
 /* DEMO-APP */
 
 
@@ -102,6 +130,26 @@ header{
     gap: 20px;
     
     
+}
+/* planning style */
+#planning .container .row .col img{
+    
+    width: 100%;
+}
+/* FORMATTAZIONE TESTO */
+#planning .container .row h2{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#planning .container .row .col.bg-white{
+    border-radius: 20px;
+    padding:20px;
+    line-height: 30px;
+
+}
+#planning .container .row .col.bg-white p{
+    margin-top: 20px;
 }
 
 /* PLANNING PLANNING PLANNING PLANNING*/
@@ -207,17 +255,75 @@ header{
 .t-center{
     align-items: center;
 }
-
+.f.size20{
+    font-size: 20px;
+}
 /* BUTTONS */
 
 
 .btn{
     border-radius: 20px;
     padding: 1em 1.8em;
+    display: flex;
     align-items: center;
+    gap: 10px;
+    
 }
+.fa-arrow-circle-down::before, .fa-circle-arrow-down::before {
+    content: "\f0ab";
+    color:rgba(151,146,228,255) ;
+    font-size: 80px;
+}
+   .round-btn{
+    margin-top: 50px;
+    margin-bottom: 50px;
+   } 
 
 /* BUTTONS */
+/* LOGO+ICONA */
+.fa-file-code::before {
+    content: "\f1c9";
+    font-size: 80px;
+    color: dodgerblue;
+    
+    
+}
+
+.fa-compass-drafting::before, .fa-drafting-compass::before {
+    content: "\f568";
+    font-size: 80px;
+    color: dodgerblue;
+   
+  
+  }
+  
+.fa-laptop-code::before {
+    content: "\f5fc";
+    font-size: 80px;
+    color: dodgerblue;
+    
+
+  
+  }
+  .fa-bullhorn::before {
+    content: "\f0a1";
+    font-size: 80px;
+    color: dodgerblue;
+    
+    
+    
+
+  }
+.logo-icona{
+    margin-top: 20px;
+}
+.al-center{
+    align-items: center;
+}
+/* LOGO+ICONA */
+
+
+
 
 
 /* COL *//* COL *//* COL *//* COL *//* COL */
