@@ -1,4 +1,4 @@
-@media screen and (min-width :481px)
+@media screen and (min-width :768px)
 {
 
     /* DEMO APP */
@@ -14,7 +14,7 @@
         
     }
 
-     .menu-desktop ul{
+    .menu-desktop ul{
         display: none;
     }
     #demo-app .container .row .col{
@@ -95,12 +95,9 @@
 
 }
 
-@media screen and (min-width :761px)
+@media screen and (min-width :992px)
 {
-    .container{
-        width: 1200px;
-        margin: 0 auto;
-    }
+   
     #planning .container .row {
         display: flex;
         flex-direction: row;
@@ -125,4 +122,11 @@
     #benefits .container .row .col {
         width: calc(100% / 3 - 20px);
     }
+}
+@media screen and (min-width :1140px)
+{
+   .container{
+    max-width: 1140px;
+   }
+  
 }
