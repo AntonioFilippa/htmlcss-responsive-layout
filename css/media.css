@@ -87,12 +87,38 @@
         /* PARTNER */
     
     
-        #partner .container .row {
-        display: flex;
-        justify-content: center;
-        align-self: center;
-        flex-direction: column;
+        #partner .container .row .col.bg-pink{
+            position: relative;
+            padding: 20px;
+        }
+        #partner .container .row .col.bg-pink span {
+           position: absolute;
+           left: 30%;
+           font-size: 15px;
+           margin-bottom: 20px;
+           
+            }
+        
+            #partner .container .row .col.bg-pink h3{
+                position: absolute;
+                top: 70%;
+                left: 30%;
+                margin-top: 20px;
+                
+            }
+        
+        
+        #partner img{
+            text-align: left;
+            border-radius: 50%;
+            display: inline;
+            width: 30%;
+            
 
+            
+            
+            
+        }
         
         
         
@@ -142,15 +168,16 @@
     
 }
 
-}
+
 
 @media screen and (min-width :992px)
 {
-    #demo-app .container .row :first-child {
+#demo-app .container .row :first-child {
     display: flex;
     flex-direction: row;
     position: relative;
 }
+
 #demo-app .container .row img {
      
    height:100%;
@@ -171,7 +198,7 @@
     margin-bottom: 50px;
     
 }
-
+}
 /* PLANNING */
 #planning .container .row .col.bg-white{
     
@@ -189,7 +216,7 @@
     
     
     
-    #planning .container .row {
+#planning .container .row {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -198,11 +225,11 @@
         
         
         
-    #planning .container .row .col{
+ #planning .container .row .col{
         width: calc(100% - 20px);
     }
     
-    .menu-mobile{
+.menu-mobile{
         display: none;
     }
     .menu-desktop ul {
@@ -212,7 +239,7 @@
     #benefits .container .row .col {
         width: calc(100% / 3 - 20px);
     }
-}
+
 @media screen and (min-width :1140px)
 {
    .container{

@@ -176,10 +176,16 @@ header{
     
     
 }
+#partner .container .row .col{
+    border-radius: 50px;
+}
+
 
 #partner img{
-    width: 100%;
-    height:auto;
+
+    max-height: min-content;
+    max-width: min-content;
+    
     border-radius: 50%;
     padding: 50px;
 }
@@ -192,6 +198,29 @@ header{
 {
     text-align: center;
 }
+.fa-quote-left-alt::before, .fa-quote-left::before {
+    content: "\f10d";
+    font-size: 30px;
+  
+  }
+  .fa-quote-right-alt::before, .fa-quote-right::before {
+    content: "\f10e";
+    font-size: 30px;
+  }
+ 
+  #partner .container .row .col.titolo h1{
+    
+    color: rgba(151,146,228,255);
+    font-size: 40px;
+    
+  }
+ 
+  #partner .container .row .col.titolo{
+    line-height: 50px;
+    justify-content: center;
+    text-align: center;
+  }
+
 /* PARTNER */
 
 
